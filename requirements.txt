@@ -1,15 +1,15 @@
-# Werkzeug keeps breaking Flask!
+# Pin Werkzeug to avoid breaking Flask
 Werkzeug==2.1.2
 
 # Runtime dependencies
-Flask==2.1.2
+Flask==2.3.2
 python-dotenv==0.20.0
 
 # Runtime tools
 gunicorn==20.1.0
 honcho==1.1.0
 
-# Code quality
+# Code quality tools
 pylint==2.14.0
 flake8==4.0.1
 black==22.3.0
